@@ -1,13 +1,11 @@
-﻿#pragma strict
+﻿ var target : Transform;
+ var xDistance : float = -1.5;
+ var yDistance : float = 0.3;
+ var zDistance : float = -7.75; 
 
- var target : Transform;
- var xDistance : float -1.5;
- var yDistance : float 0.3;
- var zDistance : float -7.75; 
-
- var xRotation : float 14.5;
- var yRotation : float -2.0;
- var zRotation : float 0.12;
+ var xRotation : float = 14.5;
+ var yRotation : float = -2.0;
+ var zRotation : float = 0.12;
 
  function Update() {
      transform.position.z = (target.position.z + zDistance);
